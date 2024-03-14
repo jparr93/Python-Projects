@@ -1,11 +1,25 @@
-# Define a list of possible cuisines
-cuisines = ['Italian', 'Japanese', 'Mexican', 'Chinese', 'Indian', 'Thai', 'French', 'Mediterranean', 'Korean', 'Vietnamese']
-
 # Import random library
 import random
 
-# Select a random cuisine from the list
-selected_cuisine = random.choice(cuisines)
+# User Import
+takeaway_cost = input('How much do you want to spend (£=Cheap, ££=Medium or £££=Expensive? ')
 
-# Print the selected cuisine
-print("Selected cuisine: " + selected_cuisine)
+# Decide your takeaway categories
+cheapTakeaway = ['McDonalds','KFC','Pizza','Chip Shop']
+mediumTakeaway = ['Subway', 'Burger King']
+expensiveTakeaway = ['Chinese','Indian']
+
+# Lets chose a takeaway
+if takeaway_cost == "£":
+    selected_takeaway = random.choice(cheapTakeaway)
+    print("Selected takeaway: " + selected_takeaway )
+elif takeaway_cost == "££":
+    selected_takeaway = random.choice(mediumTakeaway)
+    print("Selected takeaway: " + selected_takeaway )
+elif takeaway_cost == '£££':
+    selected_takeaway =  random.choice(expensiveTakeaway)
+    print("Selected takeaway: " + selected_takeaway )
+else:
+    print('Choose a cost!')
+
+    
