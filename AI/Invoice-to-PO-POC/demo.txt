@@ -1,0 +1,6 @@
+Vendor Name: CONTOSO LTD. has confidence: 0.93
+Vendor Address: AddressValue(house_number=123, po_box=None, road=456th St, city=New York, state=NY, postal_code=10001, country_region=None, street_address=123 456th St, unit=None, city_district=None, state_district=None, suburb=None, house=None, level=None) has confidence: 0.887
+Vendor Address Recipient: Contoso Headquarters has confidence: 0.931
+Customer Name: MICROSOFT CORPORATION has confidence: 0.915
+Customer Id: CID-12345 has confidence: 0.966
+Customer Address: AddressValue(house_number=123, po_box=None, road=Other St, city=Redmond, state=WA, postal_code=98052, country_region=None, street_address=123 Other St, unit=None, city_district=None, state_district=None, suburb=None, house=None, level=None) has confidence: 0.89
