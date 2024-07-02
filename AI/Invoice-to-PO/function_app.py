@@ -12,7 +12,7 @@ from azure.ai.formrecognizer import DocumentAnalysisClient
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 endpoint = "https://cog-serv-jp.cognitiveservices.azure.com/"
-key = "3a0db0382c644f7e86031160554befd3"
+key = "3"
 
 # sample document
 formUrl = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-invoice.pdf"

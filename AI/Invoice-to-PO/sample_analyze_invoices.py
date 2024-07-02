@@ -20,7 +20,7 @@ secure methods to store and access your credentials. For more information, see
 https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-security?tabs=command-line%2Ccsharp#environment-variables-and-application-configuration
 """
 endpoint = "https://cog-serv-jp.cognitiveservices.azure.com/"
-key = "3a0db0382c644f7e86031160554befd3"
+key = ""
 
 # sample document
 formUrl = "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-REST-api-samples/master/curl/form-recognizer/sample-invoice.pdf"

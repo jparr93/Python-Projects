@@ -2,7 +2,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.language.questionanswering import QuestionAnsweringClient
 
 endpoint = "https://qna-jp-uks.cognitiveservices.azure.com/"
-credential = AzureKeyCredential("ba56ddf28d0f49369f3fcd10f4bc2139")
+credential = AzureKeyCredential("")
 knowledge_base_project = "qna"
 deployment = "production"
 
