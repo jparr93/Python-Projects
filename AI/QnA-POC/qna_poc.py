@@ -5,11 +5,12 @@ endpoint = "https://qna-jp-uks.cognitiveservices.azure.com/"
 credential = AzureKeyCredential("")
 knowledge_base_project = "qna"
 deployment = "production"
+inputted_question = input('What do you want to ask the QNA bot?')
 
 def main():
     client = QuestionAnsweringClient(endpoint, credential)
     with client:
-        question="What is an Azure Firewall?"
+        question = inputted_question
         output = client.get_answers(
             question = question,
             project_name=knowledge_base_project,
